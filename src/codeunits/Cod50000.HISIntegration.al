@@ -21,7 +21,7 @@ codeunit 50000 "3E HIS Integration Mgmt."
         IntegrationSetup.TESTFIELD("Integration Enabled", TRUE);
         IntegrationSetup.TESTFIELD("Vendor Creation Enabled", TRUE);
         IntegrationSetup.TESTFIELD("Vendor Gen. Bus. Posting Group");
-
+        // Message();
         IF NOT (IntegrationSetup."Integration Enabled") AND (IntegrationSetup."Vendor Creation Enabled") THEN
             EXIT;
         HisMasterStaging.RESET();

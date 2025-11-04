@@ -1,0 +1,32 @@
+{
+  "id": "7a605930-93b1-4575-956e-fdddf2a3e485",
+  "name": "MindCurve T3 HIS Integration",
+  "publisher": "MindCurve",
+  "version": "1.0.0.0",
+  "brief": "Bridging TrioTree HIS with Dynamics 365 Business Central for a unified hospital ecosystem",
+  "description": "At MindCurve, we understand that hospitals running on TrioTree HIS face challenges in connecting clinical operations with financial and supply chain systems. With our T3 HIS Integration, we solve this gap by enabling seamless data exchange with Dynamics 365 Business Central. This solution eliminates duplication, improves accuracy, and empowers management with real-time insights to make faster, better decisions.",
+  "privacyStatement": "https://mindcurve.in",
+  "EULA": "https://mindcurve.in",
+  "help": "https://mindcurve.in",
+  "url": "https://mindcurve.in",
+  "logo": "logo/3E Logo.jpg",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50599
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
